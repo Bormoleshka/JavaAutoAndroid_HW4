@@ -21,6 +21,7 @@ public class DriverFactory {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
+        return driver;
     }
 }
 

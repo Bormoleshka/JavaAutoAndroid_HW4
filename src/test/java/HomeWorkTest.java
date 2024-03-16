@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.net.MalformedURLException;
 
-public class HomeWork4Test {
+public class HomeWorkTest {
     @AndroidFindBy(id="btnJoinConf")
     MobileElement btnJoinConf;
 
@@ -40,7 +40,7 @@ public class HomeWork4Test {
     }
 
     @Test
-    public void MyTest() throws InterruptedException {
+    public void mytest() throws InterruptedException {
         btnJoinConf.click();
 
         Thread.sleep(2000);
@@ -65,7 +65,7 @@ public class HomeWork4Test {
     }
 
     @After
-    public void tearDown(){
-        driver.quit();
+    public void tearDown()
+    {driver.quit();
     }
 }
